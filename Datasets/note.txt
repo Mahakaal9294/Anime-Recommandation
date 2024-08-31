@@ -1,0 +1,3 @@
+you have to run the given python notebook to generate the similarity vector 
+
+store the similarity vector in the name of 'similarity.pkl' using pickle in the Datasets folder
