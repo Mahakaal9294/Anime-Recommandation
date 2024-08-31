@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "User_id": "Admin123@",
+      "Fname": "Admin",
+      "Lname": "admin",
+      "Age": 22,
+      "Gender": "Male",
+      "Email": "Admin123@admin.com",
+      "pwsd": "Admin123@"
+    }
+  ],
+  "total_users": 1
+}
