@@ -6,10 +6,14 @@ with open('state.st','rb') as f:
     data = pkl.load(f)
     user_id = data['user']
 
-Fname =  Lname = Age = Gender = Email = ''
 
 with open('users.json','r') as f:
     data = json.load(f)
+
+
+def app():
+
+    Fname =  Lname = Age = Gender = Email = ''
 
     for x in data['users']:
         if x['User_id'] == user_id:
@@ -18,8 +22,6 @@ with open('users.json','r') as f:
               Age = x['Age']
               Gender = x['Gender']
               Email = x['Email']
-
-def app():
 
     st.markdown("<h1 style ='text-align:center' > PROFILE </h1>",
                         unsafe_allow_html=True)
