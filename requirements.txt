@@ -1,8 +1,5 @@
 streamlit
 streamlit_option_menu
-pickle == 3.7
-json
 pandas
 numpy
 nltk
-ast
