@@ -1,7 +1,6 @@
 import streamlit as st
 
 import pickle as pkl
-import test
 
 def app():
     def logout():
