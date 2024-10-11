@@ -33,14 +33,15 @@ def app():
     st.write("<h1 style ='text-align:center' >  ANIME RECOMMENDER </h1>",
                     unsafe_allow_html=True)
 
-
+    anime_names = df['name'].tolist()
+    anime_names.insert(0,'Select Anime')
 
     anime_name = st.selectbox('Select the Anime that you have already watched to view recommandation',
-                            options=df['name'])
+                            options=anime_names)
 
 
 
-    if anime_name != df['name'][0]:
+    if anime_name != 'Select Anime':
 
 
         idx,recom_idx = get_anime(anime_name)
