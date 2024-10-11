@@ -1,6 +1,6 @@
 streamlit
 streamlit_option_menu
-pickle
+pickle == 3.8
 json
 pandas
 numpy
