@@ -4,3 +4,5 @@ pickle
 json
 pandas
 numpy
+nltk
+ast
